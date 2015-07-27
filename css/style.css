@@ -15,7 +15,6 @@ header {
 	background-color: #ffffff;
 	padding: 5px 0;
 	/* z-index allows for moving content on the z-axis similar to layers in photoshop */
-
 }
 
 header img {
@@ -83,7 +82,7 @@ nav a:hover {
 	width: 100px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .icon4 {
@@ -94,7 +93,7 @@ nav a:hover {
 }
 
 form {
-	margin: 10px 10px 60px 10px;
+	margin: 10px 10px 20px 10px;
 }
 
 label {
@@ -128,17 +127,16 @@ input:focus {
 input [type="submit"]
 
 @media screen and (max-width: 550px){
+}
 
 nav a {
 	
 	display: block;
-	padding: 5px 0 5px 0;
-
+	padding: 3px 0 3px 0;
 }
 
 .footer {
 	margin: 100px 200px 100px 0;
-
 }
 
 .close img {
@@ -147,8 +145,9 @@ nav a {
 	height: 20px;
 	top: 20px;
 	left: 20px;
-
 }
+
+
 
 
 
