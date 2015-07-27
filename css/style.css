@@ -127,7 +127,11 @@ input:focus {
 input [type="submit"]
 
 @media screen and (max-width: 550px){
-
+	.lightbox2 img {
+		width: 100%;
+		float: none;
+	}
+}
 nav a {
 	
 	display: block;
@@ -138,11 +142,6 @@ nav a {
 	margin: 100px 200px 100px 0;
 }
 
-.lightbox img {
-	text-align:center;
-	max-width: 90%;
-	max-height: 90%;
-}
 
 
 
