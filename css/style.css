@@ -127,11 +127,11 @@ input:focus {
 input [type="submit"]
 
 @media (max-width: 480px) {
-    #div {
+    {
         top: 50%; /* IMPORTANT */
         left: 50%; /* IMPORTANT */
         display: block;
-        position: absolute;
+        position: fixed;
         background: url(images/background.png) no-repeat center center;
         width: 750px;
         height: 417px;
@@ -139,7 +139,7 @@ input [type="submit"]
         margin-top: -208.5px; /* HALF OF THE HEIGHT */
         margin-left: -375px; /* HALF OF THE WIDTH */
     }
-}
+
 
 
 
