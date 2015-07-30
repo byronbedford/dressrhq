@@ -67,6 +67,7 @@ nav a:hover {
 	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
 	width: 400px;
 }
 
@@ -79,17 +80,16 @@ nav a:hover {
 }
 
 .icons {
+	text-align: center;
+	padding: 50px 0 25px 0;
+}
+.icons img {
 	width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
 }
 
-.icon4 {
+.icons .tel img {
+	margin-top: 10px;
 	width: 200px;
-    position: center;
-    margin-top: 20px;
-    margin-left: -50px;
 }
 
 form {
@@ -111,7 +111,13 @@ input {
 	background-color: #ffffff;
 	transition: all 0.5s;
 }
+input:focus {
+	border: 2px solid #16b898;
+}
 
+iframe {
+	max-width: 80%;
+}
 h2 {
 	padding: 15px 15px 15px 15px;
 }
@@ -120,28 +126,23 @@ h3 {
 	font-size: 24px;
 }
 
-input:focus {
-	border: 2px solid #16b898;
+footer {
+	padding: 20px 0;
 }
 
-input [type="submit"]
-
 @media (max-width: 480px) {
-    {
-        top: 50%; /* IMPORTANT */
-        left: 50%; /* IMPORTANT */
+	
+/* This is not doing anything */
+/*	.thing {
+        top: 50%; 
+        left: 50%;
         display: block;
         position: fixed;
         background: url(images/background.png) no-repeat center center;
         width: 750px;
         height: 417px;
 
-        margin-top: -208.5px; /* HALF OF THE HEIGHT */
-        margin-left: -375px; /* HALF OF THE WIDTH */
-    }
-
-
-
-
-
-
+        margin-top: -208.5px; 
+        margin-left: -375px; 
+    }*/
+}
